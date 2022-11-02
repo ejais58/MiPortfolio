@@ -1,0 +1,41 @@
+<div id="contacto"></div>
+        <div class="info_titulo">
+            <h4>Contáctame</h4>
+        </div>
+        <div class="info_form">
+            <div class="info">
+                <p>Nombre: Elias Jóse Jais</p>
+                <p>Edad: 28 años</p>
+                <p>Correo: ejais58@gmail.com</p>
+                <p>Teléfono: 3835412947</p>
+                <p>Belen - Catamarca - Córdoba</p>
+                <div class="img_info">
+                    <a href="https://www.linkedin.com/in/elias-jais/" target="_blank">
+                        <img src="/assets/img/logo/linkedin.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/jais_e/" target="_blank">
+                        <img src="/assets/img/logo/instagram.png" alt="">
+                    </a>
+                    <a href="https://github.com/ejais58" target="_blank">
+                        <img src="/assets/img/logo/github.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <form class="form" [formGroup]="miFormulario" (ngSubmit)="mensaje()">
+                <p>Mensaje</p>
+                <div class="item">
+                    <input class="input100" type="text" formControlName="name" placeholder="Ingrese su nombre">
+                </div>
+                <div class="item">
+                    <input class="input100" type="text" formControlName="email" placeholder="Ingrese su email">
+                </div>
+                <div class="item">
+                    <textarea formControlName="msg" cols="30" rows="10" placeholder="Escriba su mensaje">Mensaje</textarea>
+                </div>
+                <button class="btn_enviar"
+                    type="submit"
+                    [disabled]="miFormulario.invalid">
+                    Enviar
+                </button>
+            </form>
+        </div>

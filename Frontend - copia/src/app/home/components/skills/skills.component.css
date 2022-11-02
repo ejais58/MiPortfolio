@@ -1,0 +1,165 @@
+.container_habilidades{
+    height: 400px;
+    display: flex;
+    margin: 50px;
+    border-radius: 3px;
+    background-color: #566573;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.habilidades_titulo{
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.habilidades_titulo h4{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.habilidades{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: #2C3E50;
+    border-radius: 3px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5); 
+}
+.habilidades p{
+    padding: 5px;
+    color: #fff;
+    
+}
+
+
+.container_hab{
+    width: 100%;
+}
+
+.skill{
+    text-align: right;
+    padding: 3px;
+    color: white;
+    font-weight: 500px;
+    background-color: #346777  ;
+    border-radius: 20px;
+}
+
+.html{
+    animation: htmlanimation 2s forwards;
+}
+
+.css{
+    animation: cssanimation 2s forwards;
+}
+
+.java{
+    animation: javaanimation 2s forwards;
+}
+
+.angular{
+    animation: angularanimation 2s forwards;
+}
+
+.net{
+    animation: netanimation 2s forwards;
+}
+
+.node{
+    animation: nodeanimation 2s forwards;
+}
+
+@keyframes htmlanimation {
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+@keyframes cssanimation {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes javaanimation {
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+@keyframes angularanimation {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+@keyframes netanimation {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+@keyframes nodeanimation {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+
+
+
+@media screen and (max-width:1200px) {
+   
+    /* Habilidades */
+    .habilidades{
+        width: 450px;
+        margin: auto;
+        padding: 8px;
+    }
+    
+
+}
+
+/* A 1020px de ancho */
+@media screen and (max-width: 1020px){
+    
+    .habilidades{
+        width: 400px;
+        margin: auto;
+        padding: 6px;
+    }
+  
+}
+
+/* A 720px de ancho */
+@media screen and (max-width:720px) {
+
+    .container_habilidades{
+        height: 500px;
+        display: block;
+        padding: 20px;
+    }
+    .habilidades{
+        width: 400px;
+        margin-top: 30px;
+        padding: 6px;
+    }
+}
+
+/* A 520px de ancho */
+@media screen and (max-width:520px) {
+   
+    .container_habilidades{
+        height: 520px;
+        padding: 20px;
+    }
+    .habilidades{
+        width: 350px;
+    }
+    
+}
+
+/* A 390px de ancho */
+@media screen and (max-width:390px) {
+    
+    .container_habilidades{
+        width: 330px;
+        height: 520px;
+        padding: 20px;
+    }
+    .habilidades{
+        width: 290px;
+    }
+
+}

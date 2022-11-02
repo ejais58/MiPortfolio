@@ -1,0 +1,264 @@
+.info_titulo{
+    padding: 20px;
+    margin-top: 50px;
+}
+.info_titulo h4{
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.info_form{
+    height: 600px;
+    display: flex;
+    margin: 40px;
+    background-color: #566573;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+    
+}
+
+.info{
+    width: 600px;
+    margin: 40px;
+    padding: 15px;
+    margin: auto;
+    background-color: #2C3E50;
+    border-radius: 3px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.info p{
+    font-size: 20px;
+    padding: 7px;
+    color: #fff;
+}
+
+.img_info{
+    margin-top: 50px;
+}
+
+.img_info img{
+    width: 50px;
+    height: 50px;
+    margin-right: 70px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* formulario */
+
+.form{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    margin: auto;
+    background-color: #2C3E50;
+    border-radius: 3px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form p{
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn_enviar{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 1px 1px 30px -12px #0f0e0e;
+    transition: all 300ms;
+    
+}
+
+/* Responsive */
+
+
+
+
+/* A 1200px de ancho */
+
+@media screen and (max-width:1200px) {
+    
+    .info_titulo h4{
+        margin-left: 100px;
+        font-size: 30px;
+        font-weight: 500;
+        
+    }
+    .info{
+        width: 500px;
+        margin: 25px;
+        padding: 15px;
+        margin: auto;  
+    }
+    .info p{
+        font-size: 18px;
+        padding: 6px;
+    }
+    
+    .img_info img{
+        width: 45px;
+        height: 45px;
+        margin-right: 65px;
+    }
+    /* formulario */
+    .form{
+        width: 400px;
+        margin: auto;
+        padding: 10px;
+    } 
+
+}
+
+/* A 1020px de ancho */
+@media screen and (max-width: 1020px){
+   
+    /* Contacto */
+    .info{
+        width: 450px;
+        margin: 20px;
+        padding: 15px;
+        margin: auto;
+        
+    }
+    .info p{
+        font-size: 18px;
+        padding: 6px;
+    }
+    
+    .img_info img{
+        width: 40px;
+        height: 40px;
+        margin-right: 60px;
+    }
+    /* formulario */
+    .form{
+        width: 380px;
+        margin: auto;
+        padding: 10px;
+    } 
+
+}
+
+/* A 720px de ancho */
+@media screen and (max-width:720px) {
+    
+    /* Contacto */
+    .info_form{
+        height: 1000px;
+        display: block;
+        padding: 20px;
+        background-color: #566573;
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+        
+    }
+    .info{
+        width: 450px;
+        margin-top: 20px;
+        padding: 15px;
+        
+    }
+    .info p{
+        font-size: 18px;
+        padding: 6px;
+    }
+    
+    .img_info img{
+        width: 40px;
+        height: 40px;
+        margin-right: 60px;
+    }
+    /* formulario */
+    .form{
+        margin: auto;
+        width: 450px;
+        margin-top: 70px;
+        padding: 10px;
+    } 
+
+
+}
+
+/* A 520px de ancho */
+@media screen and (max-width:520px) {
+
+    /* Contacto */
+    .info{
+        width: 300px;
+        margin-top: 20px;
+        padding: 15px;
+        
+    }
+    .info p{
+        font-size: 18px;
+        padding: 6px;
+    }
+    
+    .img_info img{
+        width: 40px;
+        height: 40px;
+        margin-right: 40px;
+    }
+    /* formulario */
+    .form{
+        margin: auto;
+        width: 300px;
+        margin-top: 70px;
+        padding: 10px;
+    } 
+
+
+}
+
+/* A 390px de ancho */
+@media screen and (max-width:390px) {
+   
+    /* Contacto */
+    .info_form{
+        width: 330px;
+    }
+    .info{
+        width: 290px;
+        margin-top: 20px;
+        padding: 15px;
+        
+    }
+    .info p{
+        font-size: 18px;
+        padding: 6px;
+    }
+    
+    .img_info img{
+        width: 40px;
+        height: 40px;
+        margin-right: 40px;
+    }
+    /* formulario */
+    .form{
+        margin: auto;
+        width: 290px;
+        margin-top: 70px;
+        padding: 10px;
+    } 
+
+}
