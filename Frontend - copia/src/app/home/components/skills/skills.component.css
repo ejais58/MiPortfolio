@@ -49,52 +49,52 @@
 }
 
 .html{
-    animation: htmlanimation 2s forwards;
+    width: 80%;
 }
 
 .css{
-    animation: cssanimation 2s forwards;
+    width: 70%;
 }
 
 .java{
-    animation: javaanimation 2s forwards;
+    width: 80%;
 }
 
 .angular{
-    animation: angularanimation 2s forwards;
+    width: 70%;
 }
 
 .net{
-    animation: netanimation 2s forwards;
+    width: 60%;
 }
 
 .node{
-    animation: nodeanimation 2s forwards;
+    width: 50%;
 }
 
 @keyframes htmlanimation {
     0%{width: 0;}
-    100%{width: 80%;}
+    80%{width: 100%;}
 }
 @keyframes cssanimation {
     0%{width: 0;}
-    100%{width: 70%;}
+    70%{width: 100%;}
 }
 @keyframes javaanimation {
     0%{width: 0;}
-    100%{width: 80%;}
+    80%{width: 100%;}
 }
 @keyframes angularanimation {
     0%{width: 0;}
-    100%{width: 70%;}
+    70%{width: 100%;}
 }
 @keyframes netanimation {
     0%{width: 0;}
-    100%{width: 50%;}
+    60%{width: 100%;}
 }
 @keyframes nodeanimation {
     0%{width: 0;}
-    100%{width: 60%;}
+    50%{width: 100%;}
 }
 
 
