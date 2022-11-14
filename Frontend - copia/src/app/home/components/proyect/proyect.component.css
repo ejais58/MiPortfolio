@@ -24,7 +24,7 @@
     width: 300px;
     height: 400px;
     border-radius: 3px;
-    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.5);
     overflow: hidden;
     margin: 0 60px;
     text-align: center;
@@ -35,8 +35,8 @@
 }
 
 .container_card .card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.5);
 }
 
 .container_card .card img{
