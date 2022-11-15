@@ -25,13 +25,16 @@
             <form class="form" [formGroup]="miFormulario" (ngSubmit)="mensaje()">
                 <p>Mensaje</p>
                 <div class="item">
-                    <input type="text" formControlName="name" placeholder="Ingrese su nombre">
+                    <input type="text" formControlName="name">
+                    <label class="name" for="">Ingrese su nombre</label>
                 </div>
                 <div class="item">
-                    <input type="text" formControlName="email" placeholder="Ingrese su email">
+                    <input type="text" formControlName="email">
+                    <label class="email" for="">Ingrese su email</label>
                 </div>
                 <div class="item">
-                    <textarea formControlName="msg" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+                    <textarea formControlName="msg" cols="30" rows="10"></textarea>
+                    <label class="mensaje" for="">Escriba su mensaje</label>
                 </div>
                 <div class="button">
                     <button class="btn_enviar"
